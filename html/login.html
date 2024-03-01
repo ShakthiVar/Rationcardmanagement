@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include custom login.js -->
+    <script src="../js/login.js"></script>
+    <!-- Add custom CSS -->
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <div class="background-container">
+        <div class="container login-container">
+            <h2 align="center">Login Form</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Enter your username">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password">
+                </div>
+
+                <button onclick="submitLogin()" class="btn btn-success btn-block">Login</button>
+
+                <div id="error-message" class="alert alert-danger" style="display: none;"></div>
+            </form>
+            <div class="already-logged-in">
+                <p>New user? <a href="register.html">Register here</a></p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

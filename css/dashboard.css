@@ -1,0 +1,51 @@
+/* dashboard.css */
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.dashboard-info {
+  margin-bottom: 20px;
+}
+
+.dashboard-links {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-links button {
+  margin: 0 10px;
+}
+
+.dashboard-background {
+  background-image: url('../img/goods.jpg'); /* Replace with the path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set height to full viewport height */
+}
+/* dashboard.css */
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.dashboard-info {
+  margin-bottom: 20px;
+}
+
+.dashboard-links {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-links button {
+  margin: 0 10px;
+}
+
+.dashboard-background {
+  background-color: #f2f2f2; /* Light gray background */
+  height: 100vh; /* Set height to full viewport height */
+}
+

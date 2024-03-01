@@ -1,0 +1,102 @@
+/* viewschedule.css */
+
+/* Adjust the container styles to center it on the page */
+.background-container {
+    background-image: url('../img/goods.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 80%; /* Adjust container width */
+    max-width: 600px; /* Limit the maximum width of the container */
+}
+
+/* Add this CSS to style the schedule cards container */
+.schedule-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px; /* Increase gap between grid items */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Style for each individual schedule card */
+.schedule-card {
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Make border radius larger */
+    padding: 20px; /* Increase padding */
+    width: 200px; /* Set card width */
+    height: 200px; /* Set card height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the delete schedule button */
+.delete-schedule-btn {
+    background-color: #f44336; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 8px 16px; /* Adjust padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.delete-schedule-btn:hover {
+    background-color: #d32f2f; /* Darker red color on hover */
+}
+/* viewschedule.css */
+
+#addScheduleForm button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increase padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+#addScheduleForm button[type="submit"]:hover {
+    background-color: #45a049; /* Darker color on hover */
+}
+#showFormBtn button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increase padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+#showFormBtn button[type="submit"]:hover {
+    background-color: #45a049; /* Darker color on hover */
+}
+/* viewschedule.css */
+
+/* Style for the input fields */
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: calc(100% - 40px); /* Adjust width */
+    padding: 15px; /* Increase padding */
+    margin-bottom: 30px; /* Increase bottom margin */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ration Shop Registration</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include custom register.js -->
+    <script src="../js/register.js"></script>
+    <!-- Add custom CSS -->
+    <link rel="stylesheet" href="../css/reg.css">
+</head>
+<body>
+
+<div class="background-container">
+    <div class="container registration-container">
+        <h1>Ration Shop Registration</h1>
+        
+        <form id="registrationForm" method="POST">
+            <div class="form-group">
+                <label for="usrname">Username</label>
+                <input type="text" class="form-control" id="usrname" name="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="shopName">Shop Name</label>
+                <input type="text" class="form-control" id="shopName" name="shopName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea class="form-control" id="address" name="address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="contactInfo">Contact Information</label>
+                <input type="text" class="form-control" id="contactInfo" name="contactInfo" required>
+            </div>
+
+            <button type="button" onclick="submitRegistration()" class="btn btn-primary btn-block">Register</button>
+        </form>
+
+        <div class="already-logged-in">
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+
+        <div class="forgot-password">
+            <p><a href="#" id="forgotPassword">Forgot Password?</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
